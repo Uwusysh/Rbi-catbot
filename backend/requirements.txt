@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+langchain
+langchain-community
+langchain-core
+langchain-groq
+transformers
+huggingface_hub
+pypdf
+chromadb
+requests
+googlesearch-python
+pydantic
