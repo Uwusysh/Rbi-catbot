@@ -70,4 +70,4 @@ curl -X POST "http://localhost:8000/ask" \
 
 Here is an example of the output you can expect from the API:
 
-![Output Example](images/output-example.png)
+![Output Example](Rbi.png)
