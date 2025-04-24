@@ -66,5 +66,8 @@ curl -X POST "http://localhost:8000/ask" \
 - **Custom Models**: Swap out Groq for OpenAI, Anthropic, or local models via `langchain-community`.  
 - **Voice Input**: Use `speech-recognition` (add to `requirements.txt`) for audio queries.  
 
-## 📜 License  
-MIT  
+## 📸 Example Output
+
+Here is an example of the output you can expect from the API:
+
+![Output Example](images/output-example.png)
