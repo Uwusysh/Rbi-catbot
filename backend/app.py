@@ -277,7 +277,7 @@ async def get_policy_answer(request: QuestionRequest):
         
         prompt_template = ChatPromptTemplate.from_template(template)
 
-        os.environ["GROQ_API_KEY"] = "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"
+        os.environ["GROQ_API_KEY"] = "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"
         llm = ChatGroq(model_name="llama3-8b-8192", temperature=0.1)
 
         qa_chain = RetrievalQA.from_chain_type(
@@ -344,7 +344,7 @@ async def get_data_answer(request: QuestionRequest):
         
         prompt_template = ChatPromptTemplate.from_template(template)
 
-        os.environ["GROQ_API_KEY"] = "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"
+        os.environ["GROQ_API_KEY"] = "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"
         llm = ChatGroq(model_name="llama3-8b-8192", temperature=0.1)
 
         qa_chain = RetrievalQA.from_chain_type(
@@ -380,12 +380,12 @@ async def get_data_answer(request: QuestionRequest):
 @app.post("/api/web-answer")
 async def get_web_answer(request: QuestionRequest):
     try:
-        os.environ["GROQ_API_KEY"] = "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"
+        os.environ["GROQ_API_KEY"] = "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"
         llm = ChatGroq(model_name="llama3-8b-8192", temperature=0.5)
         
         # Google Custom Search API configuration
-        GOOGLE_API_KEY = "AIzaSyAx68FS8TKfDM4QptiFmE_2GUauVevP9o8"  # Replace with your actual key
-        SEARCH_ENGINE_ID = "72bcbdff4fedf426f"  # Replace with your CX
+        GOOGLE_API_KEY = "AIzaSyAx68FS8TKfDM4QptiFmE_2GUauVevP9o2"  # Replace with your actual key
+        SEARCH_ENGINE_ID = "72bcbdff4fedf426d"  # Replace with your CX
         
         def google_custom_search(query, num=3):
             url = "https://www.googleapis.com/customsearch/v1"
